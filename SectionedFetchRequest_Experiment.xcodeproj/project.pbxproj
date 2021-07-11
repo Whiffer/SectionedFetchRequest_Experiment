@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E48377268B9B1300280647 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E48373268B9B1300280647 /* Item+CoreDataClass.swift */; };
+		13E48378268B9B1300280647 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E48374268B9B1300280647 /* Item+CoreDataProperties.swift */; };
+		13E48379268B9B1300280647 /* Attribute+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E48375268B9B1300280647 /* Attribute+CoreDataClass.swift */; };
+		13E4837A268B9B1300280647 /* Attribute+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E48376268B9B1300280647 /* Attribute+CoreDataProperties.swift */; };
+		13F41E21268A3B2D00BBFA3A /* SectionedFetchRequest_ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F41E20268A3B2D00BBFA3A /* SectionedFetchRequest_ExperimentApp.swift */; };
+		13F41E23268A3B2D00BBFA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F41E22268A3B2D00BBFA3A /* ContentView.swift */; };
+		13F41E25268A3B2E00BBFA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F41E24268A3B2E00BBFA3A /* Assets.xcassets */; };
+		13F41E2A268A3B2E00BBFA3A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F41E29268A3B2E00BBFA3A /* Persistence.swift */; };
+		13F41E2D268A3B2E00BBFA3A /* SectionedFetchRequest_Experiment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13F41E2B268A3B2E00BBFA3A /* SectionedFetchRequest_Experiment.xcdatamodeld */; };
+		13FB7B1B269B9EF2005DBC46 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13FB7B1A269B9EF2005DBC46 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B124422692A604004D7A90 /* SectionedFetchRequest-Experiment-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SectionedFetchRequest-Experiment-Info.plist"; sourceTree = "<group>"; };
+		13E48373268B9B1300280647 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		13E48374268B9B1300280647 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13E48375268B9B1300280647 /* Attribute+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Attribute+CoreDataClass.swift"; sourceTree = "<group>"; };
+		13E48376268B9B1300280647 /* Attribute+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Attribute+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13F41E1D268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectionedFetchRequest_Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F41E20268A3B2D00BBFA3A /* SectionedFetchRequest_ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionedFetchRequest_ExperimentApp.swift; sourceTree = "<group>"; };
+		13F41E22268A3B2D00BBFA3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13F41E24268A3B2E00BBFA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F41E29268A3B2E00BBFA3A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		13F41E2C268A3B2E00BBFA3A /* Feedback_FB7960282.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feedback_FB7960282.xcdatamodel; sourceTree = "<group>"; };
+		13FB7B1A269B9EF2005DBC46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F41E1A268A3B2D00BBFA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F41E14268A3B2D00BBFA3A = {
+			isa = PBXGroup;
+			children = (
+				13FB7B1A269B9EF2005DBC46 /* README.md */,
+				13F41E1F268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment */,
+				13F41E1E268A3B2D00BBFA3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F41E1E268A3B2D00BBFA3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F41E1D268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F41E1F268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				13F41E20268A3B2D00BBFA3A /* SectionedFetchRequest_ExperimentApp.swift */,
+				13F41E22268A3B2D00BBFA3A /* ContentView.swift */,
+				13F41E29268A3B2E00BBFA3A /* Persistence.swift */,
+				13F41E2B268A3B2E00BBFA3A /* SectionedFetchRequest_Experiment.xcdatamodeld */,
+				13E48373268B9B1300280647 /* Item+CoreDataClass.swift */,
+				13E48374268B9B1300280647 /* Item+CoreDataProperties.swift */,
+				13E48375268B9B1300280647 /* Attribute+CoreDataClass.swift */,
+				13E48376268B9B1300280647 /* Attribute+CoreDataProperties.swift */,
+				13B124422692A604004D7A90 /* SectionedFetchRequest-Experiment-Info.plist */,
+				13F41E24268A3B2E00BBFA3A /* Assets.xcassets */,
+			);
+			path = SectionedFetchRequest_Experiment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F41E1C268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F41E44268A3B2E00BBFA3A /* Build configuration list for PBXNativeTarget "SectionedFetchRequest_Experiment" */;
+			buildPhases = (
+				13F41E19268A3B2D00BBFA3A /* Sources */,
+				13F41E1A268A3B2D00BBFA3A /* Frameworks */,
+				13F41E1B268A3B2D00BBFA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SectionedFetchRequest_Experiment;
+			productName = Feedback_FB7960282;
+			productReference = 13F41E1D268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F41E15268A3B2D00BBFA3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					13F41E1C268A3B2D00BBFA3A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 13F41E18268A3B2D00BBFA3A /* Build configuration list for PBXProject "SectionedFetchRequest_Experiment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F41E14268A3B2D00BBFA3A;
+			productRefGroup = 13F41E1E268A3B2D00BBFA3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F41E1C268A3B2D00BBFA3A /* SectionedFetchRequest_Experiment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F41E1B268A3B2D00BBFA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FB7B1B269B9EF2005DBC46 /* README.md in Resources */,
+				13F41E25268A3B2E00BBFA3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F41E19268A3B2D00BBFA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E48378268B9B1300280647 /* Item+CoreDataProperties.swift in Sources */,
+				13F41E2A268A3B2E00BBFA3A /* Persistence.swift in Sources */,
+				13F41E2D268A3B2E00BBFA3A /* SectionedFetchRequest_Experiment.xcdatamodeld in Sources */,
+				13E48379268B9B1300280647 /* Attribute+CoreDataClass.swift in Sources */,
+				13E4837A268B9B1300280647 /* Attribute+CoreDataProperties.swift in Sources */,
+				13F41E23268A3B2D00BBFA3A /* ContentView.swift in Sources */,
+				13F41E21268A3B2D00BBFA3A /* SectionedFetchRequest_ExperimentApp.swift in Sources */,
+				13E48377268B9B1300280647 /* Item+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13F41E42268A3B2E00BBFA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13F41E43268A3B2E00BBFA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F41E45268A3B2E00BBFA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 64WN437W3Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SectionedFetchRequest_Experiment/SectionedFetchRequest-Experiment-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = SectionedFetchRequest_Experiment;
+				INFOPLIST_KEY_CFBundleName = SectionedFetchRequest_Experiment;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForeTheGreen.com.SectionedFetchRequest-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13F41E46268A3B2E00BBFA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 64WN437W3Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SectionedFetchRequest_Experiment/SectionedFetchRequest-Experiment-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = SectionedFetchRequest_Experiment;
+				INFOPLIST_KEY_CFBundleName = SectionedFetchRequest_Experiment;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ForeTheGreen.com.SectionedFetchRequest-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F41E18268A3B2D00BBFA3A /* Build configuration list for PBXProject "SectionedFetchRequest_Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F41E42268A3B2E00BBFA3A /* Debug */,
+				13F41E43268A3B2E00BBFA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F41E44268A3B2E00BBFA3A /* Build configuration list for PBXNativeTarget "SectionedFetchRequest_Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F41E45268A3B2E00BBFA3A /* Debug */,
+				13F41E46268A3B2E00BBFA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13F41E2B268A3B2E00BBFA3A /* SectionedFetchRequest_Experiment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13F41E2C268A3B2E00BBFA3A /* Feedback_FB7960282.xcdatamodel */,
+			);
+			currentVersion = 13F41E2C268A3B2E00BBFA3A /* Feedback_FB7960282.xcdatamodel */;
+			path = SectionedFetchRequest_Experiment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13F41E15268A3B2D00BBFA3A /* Project object */;
+}
