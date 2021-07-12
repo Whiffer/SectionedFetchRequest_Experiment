@@ -102,8 +102,8 @@ struct ContentView: View {
         // a change to the nsPredicate dynamic property.
         // This works even though the changed nsPredicate property value has no real effect on the results fetched.
         
-        self.state.toggle()
-        self.attributes.nsPredicate = (self.state ? NSPredicate(format: "1==1") : NSPredicate(format: "0==0"))
+//        self.state.toggle()
+//        self.attributes.nsPredicate = (self.state ? NSPredicate(format: "1==1") : NSPredicate(format: "0==0"))
         //**********************************************************
         
         //**********************************************************
