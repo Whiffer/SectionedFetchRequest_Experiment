@@ -88,17 +88,21 @@ struct ContentView: View {
             var refreshResultsNeeded = false
             
             outerLoop: for update in updates {
+                // Get Entity name of the object that was updated
                 if let updatedEntityName = update.entity.name {
                     // Since there is results, there should always be at least one Section
                     let section = attributes[0]
                     // That Section should always contain at least one NSManagedObject
+                    // Go through all of the relationships to the Entity of the Results
                     for relationship in section[0].entity.relationshipsByName.values {
                         // Get Name of an Entity related to the Results object
                         if let destinationEntityName = relationship.destinationEntity?.name {
+                            // Get Key Path of the relationship
                             let destinationKeyPath = relationship.name
                             // Is the Entity Name of the updated object the same as the Entity that is related to Results?
                             if updatedEntityName == destinationEntityName {
                                 // If so, is the updated object the same object that is related to a Results object?
+                                // Go through all of the Results objects in all sections
                                 for section in attributes {
                                     for attribute in section {
                                         let relatedObject = attribute.value(forKey: destinationKeyPath) as! NSManagedObject
@@ -106,6 +110,7 @@ struct ContentView: View {
                                             // The results should be refetched since an object that is related to a Results
                                             // object has been updated and could have changed the order of the sections.
                                             refreshResultsNeeded = true
+                                            // No need to look any further
                                             break outerLoop
                                         }
                                     }
@@ -119,6 +124,8 @@ struct ContentView: View {
             if refreshResultsNeeded {
                 // This is a trick that causes the SectionedFetchResults to be refetched by toggling the nsPredicate
                 // dynamic property between two different values that always select all Attribute objects.
+                
+                // Of course, this only works if nsPredicate is not being used for something else.
                 attributes.nsPredicate = (attributes.nsPredicate == nil ? NSPredicate(format: "1==1") : nil)
             }
         }
