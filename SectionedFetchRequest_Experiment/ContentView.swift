@@ -50,8 +50,8 @@ struct ContentView: View {
             }
             .navigationTitle("SectionedFetchRequest")
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(leading: Button("Reset", action: { async { await self.reset() } } ),
-                                trailing: Button("Swap", action: { async { await self.swap() } } ) )
+            .navigationBarItems(leading: Button("Reset", action: { Task.init { await self.reset() } } ),
+                                trailing: Button("Swap", action: { Task.init { await self.swap() } } ) )
         }
         
         // BEGIN WORKAROUND
