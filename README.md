@@ -1,6 +1,7 @@
 # SectionedFetchRequest_Experiment
 
-Updated: July 16, 2021
+Updated: July 19, 2021
+Compiles on: Xcode Version 13.0 beta 3 (13A5192j)
 
 I am in the process of creating a companion project to my SwiftUI-Core-Data-Test project that will use the new Property Warappers and Dynamic Properties that were introduced in the WWDC21-10017 session.  I was pretty much done, except that I was having one issue with the new @SectionedFetchRequest Property Wrapper. I have now developed what I think is a suitable workaround for this issue and will now resume working to complete the new sample project.
 
