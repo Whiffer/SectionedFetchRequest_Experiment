@@ -12,20 +12,7 @@ struct ContentView: View {
     
     @Environment(\.managedObjectContext) private var viewContext
 
-    // The @SectionedFetchRequest is configured as follows:
-    
-    // By using the \Attribute.sectionName keypath for the sectionIdentifier, all of the Attribute objects
-    // that are related to the same Item object will be grouped into the same List Section.
-    
-    // The first SortDescriptor sorts all of the Attribute objects based on the value of
-    // the \Attribute.item.order keypath.  i.e. The order of the Sections is a function of a value property
-    // of the related Item object and not a function of any value property of the Attribute.
-
-    // In WWDC21-10017 (@ 24:40), Scott Perry warns that the sectionIdentifier and the first SortDescriptor
-    // must be coordinated for the Sections to be grouped properly.
-    // In this case, since the sectionIdentifier and the sortDescriptors are never dynamically updqated and
-    // the values of both \Attribute.sectionName and \Attribute.item.order are always based on
-    // the same related Item object, they are guaranteeded to be (and stay) in sync.
+    // See the README file for a detailed explanation of the issue and the supplied workaround.
     
     @SectionedFetchRequest(sectionIdentifier: \Attribute.sectionName,
                            sortDescriptors: [SortDescriptor(\Attribute.item.order, order: .forward),
