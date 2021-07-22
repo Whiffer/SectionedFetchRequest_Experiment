@@ -3,6 +3,8 @@
 Updated: July 21, 2021
 Compiles on: Xcode Version 13.0 beta 3 (13A5192j)
 
+Submitted 7/21/21 to Feedback Assistant as FB9378794 - "@SectionedFetchRequest Property Wrapper does not always update Sections correctly"
+
 SwiftUI's new @SectionedFetchRequest Property Wrapper in iOS 15 Beta 3 does not properly respond to changes that are saved to the core data context.
 
 A simple self-contained project called SectionedFetchRequest_Experiment is attached to demonstrate this issue.
